@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>
+		</title>
+		<style type="text/css">
+			.img1{
+				-webkit-filter: contrast(5);
+			}
+			.img2{
+				-webkit-filter: brightness(2);
+			}
+			.img3{
+				-webkit-filter: invert(1);
+				animation: donghua 3s;
+			}
+			.img3:hover{
+				-webkit-filter: blur(0px);
+				}
+			.img5{
+				
+				-webkit-filter: hue-rotate(45deg);
+			}
+			.img6{
+				
+				-webkit-filter: blur(10px);
+				transition: all 3s;
+			}
+			
+			.img6:hover{
+				-webkit-filter: blur(0px);
+			}
+			
+			@keyframes dd{
+				from{
+					-webkit-filter: blur(10px);
+				}
+				to{
+					-webkit-filter: invert(0);
+				}
+			}
+			
+			.img7{
+				-webkit-filter: sepia(1);
+			}
+			
+			.img8{
+				-webkit-filter: saturate(2) blur(5px) grayscale(1);
+			}
+			
+			.img9{
+				animation: dh 5s;
+			}
+			
+			@keyframes dh{
+				0%{
+					-webkit-filter: brightness(10) blur(10px);
+					}
+
+                50%{
+					-webkit-filter: brightness(5) grayscale(1) blur(10px);
+					}
+				}
+				100%{
+					-webkit-filter: brightness(1) grayscale(0) blur(10px);
+				}
+				animation: dh 5s;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div clss="jpg">
+		<img class="img1" src="img/timg.jpg">	
+		<img class="img2" src="img/timg.jpg">
+		<img class="img3" src="img/timg.jpg">
+		<img class="img5" src="img/timg.jpg">
+		<img class="img6" src="img/timg.jpg">
+		<img class="img7" src="img/timg.jpg">
+		<img class="img8" src="img/timg.jpg">
+		<img class="img9" src="img/timg.jpg">
+		</div>
+	</body>
+</html>
